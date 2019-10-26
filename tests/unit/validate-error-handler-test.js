@@ -20,7 +20,7 @@ module('validateErrorHandler', function(hooks) {
     };
   });
 
-  module('with a passed in callback', function() {
+  module('with a passed in callback ', function() {
     test('invokes the provided callback', function(assert) {
       assert.expect(1);
 
