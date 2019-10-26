@@ -33,7 +33,7 @@ module('DOM Helper: tap', function(hooks) {
   });
 
   module('non-focusable element types', function() {
-    test('taping a div via selector with context set', async function(assert) {
+    test('taping a div via selector with context set blah', async function(assert) {
       element = buildInstrumentedElement('div');
 
       await setupContext(context);
